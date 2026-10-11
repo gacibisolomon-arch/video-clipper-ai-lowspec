@@ -1,0 +1,10 @@
+clips/
+temp/
+*.mp4
+*.wav
+*.srt
+*.ass
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
