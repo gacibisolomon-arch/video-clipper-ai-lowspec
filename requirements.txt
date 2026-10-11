@@ -1,0 +1,6 @@
+# CPU-only. No PyTorch needed: faster-whisper runs on CTranslate2.
+faster-whisper>=1.0.3
+yt-dlp>=2025.1.1          # keep updated: pip install -U yt-dlp
+opencv-python-headless>=4.9   # Haar cascades only, no GUI libs
+numpy>=1.26
+gradio>=4.44              # only needed for the web UI (CLI works without it)
